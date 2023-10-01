@@ -141,8 +141,12 @@ export class gameManager extends Component {
         let positionX = this.platformEnd.position.x;
 
         let isPerfect = stickPositionX + stickHeight > positionX + this.perfect.position.x && 
-                        stickPositionX < positionX + width - this.perfect.position.x;
-    
+                        stickPositionX + stickHeight < positionX + width - this.perfect.position.x;
+
+        //            -260 524 141 95 
+        //            -260 141 195 95
+        console.log(stickPositionX, stickHeight , positionX , this.perfect.position.x,
+                        stickPositionX , positionX , width , this.perfect.position.x)
         if (isPerfect) {
             this.updateScore();
         }
