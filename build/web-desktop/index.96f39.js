@@ -1,4 +1,4 @@
-System.register(["./application.6359d.js"], function (_export, _context) {
+System.register(["./application.2f9bf.js"], function (_export, _context) {
   "use strict";
 
   var Application, application;
@@ -8,8 +8,8 @@ System.register(["./application.6359d.js"], function (_export, _context) {
   }
 
   return {
-    setters: [function (_application6359dJs) {
-      Application = _application6359dJs.Application;
+    setters: [function (_application2f9bfJs) {
+      Application = _application2f9bfJs.Application;
     }],
     execute: function () {
       application = new Application();
